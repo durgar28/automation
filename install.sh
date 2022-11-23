@@ -1,7 +1,13 @@
 #!/bin/bash
-
 echo "welcome"
-sudo mkdir vinay
-sudo apt install apache2 -y
-sudo apt install docker.io -y
-sudo apt install docker-compose -y
+sudo -s
+apt upgrade
+apt update
+mkdir /home/durga
+cd /home/durga
+apt install vagrant
+apt install virtualbox 
+vagrant box add ubuntu/trusty64  --force
+vagrant init  ubuntu/trusty64 
+vagrant up
+vagrant ssh 
