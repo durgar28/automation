@@ -6,10 +6,11 @@ sleep 60
 sudo apt upgrade -y
 sleep 60
 sudo apt update -y
+sleep 60
 
 #mkdir /home/durga
 #cd /home/durga
-#apt install virtualbox -y
+apt install virtualbox -y
 #sleep 60
 #apt install vagrant -y
 #sleep 60
