@@ -4,8 +4,8 @@ sudo -s
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt update -y
-mkdir /home/durga
-cd /home/durga
+#mkdir /home/durga
+#cd /home/durga
 apt install virtualbox -y
 sleep 60
 apt install vagrant -y
