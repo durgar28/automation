@@ -14,6 +14,7 @@
    
    
    
+   
    # automation
 ###Vagrant setup
 ssh durga@20.70.180.122 (pass:Durga@123456789) 
