@@ -2,8 +2,11 @@
 echo "welcome"
 #sudo -s
 sudo apt update -y
+sleep 60
 sudo apt upgrade -y
+sleep 60
 sudo apt update -y
+
 #mkdir /home/durga
 #cd /home/durga
 #apt install virtualbox -y
