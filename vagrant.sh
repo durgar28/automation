@@ -1,3 +1,3 @@
 #!/bin/bash
 sudo mkdir test
-sudo apt install apache2
+sudo apt install apache2 -y
