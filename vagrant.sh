@@ -6,6 +6,14 @@ sudo apt install docker.io -y
 sleep 40
 sudo apt update -y 
 sleep 40
+sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
+sleep 60
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/docker.gpg
+sleep 40
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sleep 40
+sudo apt update -y
+sleep 40
 sudo apt install docker-ce -y
 sleep 60
 sudo usermod -aG docker ${USER}
