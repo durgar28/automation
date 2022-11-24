@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo mkdir test
+echo "welcome to DUGRA Vagrant task"
+sudo mv /var/lib/jenkins/workspace/devops-automation/docker-stack.yml /home/vagrant/
 sudo apt install apache2 -y
 sleep 40
 sudo apt install docker.io -y
