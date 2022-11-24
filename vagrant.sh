@@ -18,5 +18,5 @@ sudo apt install docker-ce -y
 sleep 60
 sudo usermod -aG docker ${USER}
 sudo newgrp docker
-sudo systemctl enable docker
 sudo docker swarm init
+sudo docker stack deploy -c docker-stack.yml app
